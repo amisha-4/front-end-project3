@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/sports.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 120px;
+}
+.navlink{
+    flex: 1;
+    text-align: right;
+}
+
+.navlink ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navlink ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navlink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fa2d82;
+    display: block;
+    margin: auto;
+}
+.navlink ul li:hover::after{
+    width: 100%;
+}
+.text{
+    width: 90%;
+    color: whitesmoke;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    text-align: center;
+}
+.text h1{
+    font-size: 60px;
+    color: whitesmoke;
+}
+.text p{
+    margin: 10px 0px 40px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.button1{
+    display: inline-block;
+    text-decoration: none;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    padding: 12px 34px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1:hover{
+    border: 1px solid #fa2d82;
+    background: #fa2d82;
+    transition: 1s;
+}
+
+.orient{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+h1{
+    font-size: 36px;
+    color: rgb(61,61,61);
+}
+p{
+    color: rgb(61,61,61);
+    font-size: 15px;
+    line-height: 22px;
+    margin: 10px;
+}
+.link1{
+    color: rgb(61,61,61);
+    font-size: 15px;
+    line-height: 22px;
+}
+.image1 img{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+.campus{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.faq{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.faq h4{
+    color: rgb(61,61,61);
+    font-size: 22px;
+    margin: 20px;
+}
+.contact{
+    background-color: rgb(61,61,61);
+}
+.contact h1{
+    font-size: 32px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+}
+.contactbox{
+    display: flex;
+}
+.contactleft{
+    flex-basis: 60%;
+    padding: 50px 60px;
+    color: whitesmoke;
+}
+.contactright{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: #fa2d82;
+    color: whitesmoke;
+}
+.inputbox{
+    display: contents;
+    margin-bottom: 20%;
+}
+.input1{
+    flex-basis: 45%;
+    padding: 10px;
+}
+input{
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: rgb(61,61,61);
+    color: whitesmoke;
+}
+textarea{
+    width: 75%;
+    border: 1px solid whitesmoke;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: rgb(61,61,61);
+    color: whitesmoke;
+}
+button{
+    background-color: whitesmoke;
+    width: 80px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    color: rgb(61,61,61);
+}
+.contactright ul li{
+    list-style: none;
+    display: list-item;
+    padding: 10px 18px;
+    position: relative;
+}
+.contactright ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+.rows{
+    background: rgba(61,61,61,0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 12px 10px;
+}
